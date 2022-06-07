@@ -47,7 +47,9 @@ body {
 
 .group {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
@@ -70,6 +72,8 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .profile-photo img {
@@ -117,7 +121,8 @@ body {
     margin: 0 0.5rem;
     height: 3rem;
     width: 10rem;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .app-download:nth-child(1) {
